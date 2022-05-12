@@ -1,5 +1,6 @@
 # SMSGateway
-Bramka SMS służąca do wyświetlania wiadomości SMS na stronie WWW z użyciem Raspberry PI
+Projekt praktycznej bramka SMS służąca do wyświetlania wiadomości tekstowej na stronie WWW z użyciem Raspberry PI. Litery na stronie WWW są bardzo duże i jaskrawe ze względu na fakt że użytkownikiem tego systemu jest osoba bardzo słabo widząca. Dzięki temu rozwiązaniu osoba taka bez problemu może dokonywać transakcji na swoim koncie w banku ING, co w przypadku próby odczytu SMSa na ekranie telefony nie było możliwe
+
 
   Do odbierania wiadomości SMS użyty został prosty moduł SIM800L widoczny poniżej 
 
@@ -23,3 +24,5 @@ Po odebraniu SMS przez moduł GSM na stronie WWW pojawi się pełna treść SMS'
 W przypadku kiedy SMS pochodzi z systemu bankowego ING i jest kodem potwierdzającym transakcję, aplikacja odczytuje SMS'a, wycina z niego najważniejsze informacje i prezentuje na stronie WWW w taki sposób aby kod był widoczny dla osoby słabowidzącej. Wystarczy kliknąć myszką na kod autoryzacyjny a zostanie on automatycznie skopiowany do schowka. Umożliwi to bardzo prostę wklejenie go do systemu transakcyjnego banku ING
 
 ![scr3](https://user-images.githubusercontent.com/17962241/168178077-479bf655-854d-4a6e-8ec9-75417eccb832.jpg)
+
+Dodatkowo skrypt SMSGateway odpowiada na pewne ustalowe komendy i odsyła wynik SMS'em na numer nadawcy. Dostępne komendy można znaleźć w kodzie programu
