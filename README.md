@@ -1,5 +1,5 @@
 # SMSGateway
-Bramka SMS służąca do wyświetlania wiadomości SMS na stronie wwww z użyciem Raspberry PI
+Bramka SMS służąca do wyświetlania wiadomości SMS na stronie WWW z użyciem Raspberry PI
 
   Do odbierania wiadomości SMS użyty został prosty moduł SIM800L widoczny poniżej 
 
