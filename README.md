@@ -19,3 +19,7 @@ Po uruchomieniu kodu SMSGateway.py na adresie localhost i porcie 8888 dostaniemy
 Po odebraniu SMS przez moduł GSM na stronie WWW pojawi się pełna treść SMS'a
 
 ![scr2](https://user-images.githubusercontent.com/17962241/168177478-78d1742b-3e03-415f-8425-260f89e6c052.jpg)
+
+W przypadku kiedy SMS pochodzi z systemu bankowego ING i jest kodem potwierdzającym transakcję, aplikacja odczytuje SMS'a, wycina z niego najważniejsze informacje i prezentuje na stronie WWW w taki sposób aby kod był widoczny dla osoby słabowidzącej. Wystarczy kliknąć myszką na kod autoryzacyjny a zostanie on automatycznie skopiowany do schowka. Umożliwi to bardzo prostę wklejenie go do systemu transakcyjnego banku ING
+
+![scr3](https://user-images.githubusercontent.com/17962241/168178077-479bf655-854d-4a6e-8ec9-75417eccb832.jpg)
