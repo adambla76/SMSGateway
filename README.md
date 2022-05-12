@@ -8,5 +8,6 @@ Bramka SMS służąca do wyświetlania wiadomości SMS na stronie wwww z użycie
   Moduł należy podłączyć za pomocą pinów RX / TX do Raspberry PI jak poniżej:
   
   
-![6sQiFTKXhZptFiGnPlsc](https://user-images.githubusercontent.com/17962241/168176351-13f7d15f-6da7-4829-b6c3-d70a4ecd0b9d.png)
 
+
+![6sQiFTKXhZptFiGnPlsc](https://user-images.githubusercontent.com/17962241/168176563-74a9d0e2-78fa-49c9-9df6-fb2d433c6efc.png)
