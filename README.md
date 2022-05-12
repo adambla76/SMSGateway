@@ -11,3 +11,7 @@ Bramka SMS służąca do wyświetlania wiadomości SMS na stronie WWW z użyciem
 
 
 ![6sQiFTKXhZptFiGnPlsc](https://user-images.githubusercontent.com/17962241/168176563-74a9d0e2-78fa-49c9-9df6-fb2d433c6efc.png)
+
+Po uruchomieniu kodu SMSGateway.py na adresie loopback i porcie 8888 dostaniemy stronę WWW jak poniżej:
+
+![scr1](https://user-images.githubusercontent.com/17962241/168176842-710fc101-33a2-46a8-9165-85e40a2a2ac1.jpg)
