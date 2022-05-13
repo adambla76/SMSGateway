@@ -70,7 +70,6 @@ def retrive_sms():
             logger.info('SMS command: #reboot')
             print("Siup i reboot!")
             modem.send_sms(UCS2encoder(cid),UCS2encoder('Reboot in progress...'))
-            #modem.send_sms(cid,UCS2encoder('Reboot in progress...'))
             sleep(2)
             os.system('sudo shutdown -r now')
         elif '#refresh' in msg.lower() and '730500500' in cid:
@@ -83,18 +82,14 @@ def retrive_sms():
             print("send help")
             msg = '#reboot -> reboot RPI'+chr(10)+'#info -> status'+chr(10)+'#refresh -> restart web service'
             modem.send_sms(UCS2encoder(cid),UCS2encoder(msg))
-            #modem.send_sms(cid,UCS2encoder(msg))
-
         elif '#info' in msg.lower() and '730500500' in cid:
             logger.info('SMS command: #info')
             print("info query!")
             modem.send_sms(UCS2encoder(cid),UCS2encoder("Thanks I'm fine my Lord!"))
-            #modem.send_sms(cid,UCS2encoder("Thanks I'm fine my Lord!"))
         elif '#test' in msg.lower() and '730500500' in cid:
             logger.info('SMS command: #info')
             print("info query!")
             modem.send_sms(UCS2encoder(cid),UCS2encoder("ING Bank Slaski. Logujesz sie do Mojego ING. Kod do autoryzacji: 12341234** 2020.09.04 ** 09:24:52."))
-            #modem.send_sms(cid,UCS2encoder("ING Bank Slaski. Logujesz sie do Mojego ING. Kod do autoryzacji: 12341234** 2020.09.04 ** 09:24:52."))
         else:
             print("CalledID:",cid,"  DateTime:",dt,"  Msg:",msg)
             rx_ts = datetime.timestamp(datetime.now())
@@ -133,7 +128,6 @@ def index():
             if len(rx[0])>0:
                 code = ""
                 sms = "SMS from " + rx[0] + "</br>" + sms
-                #sms = "received SMS:</br>" + sms 
                    
     else:
         if len(sms)==0:
