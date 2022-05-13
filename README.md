@@ -13,7 +13,7 @@ Projekt praktycznej bramka SMS służąca do wyświetlania wiadomości tekstowej
 
 ![6sQiFTKXhZptFiGnPlsc](https://user-images.githubusercontent.com/17962241/168176563-74a9d0e2-78fa-49c9-9df6-fb2d433c6efc.png)
 
-Istnieje również możliwość skorzystania z adaptera RS232-USB (FTDI lub CH340), który należy podłączyć do jednego z wejść USB, a następnie zdefiniować w proramie port szeregowy jako /dev/ttyUSB. Po uruchomieniu kodu SMSGateway.py na adresie localhost i porcie 8888 zobaczymy stronę WWW jak poniżej:
+Istnieje również możliwość skorzystania z adaptera RS232-USB (FTDI lub CH340), który należy podłączyć do jednego z wejść USB Raspberry PI, a następnie zdefiniować w proramie port szeregowy jako /dev/ttyUSB0. Po uruchomieniu kodu SMSGateway.py na adresie localhost i porcie 8888 zobaczymy stronę WWW jak poniżej:
 
 ![scr1](https://user-images.githubusercontent.com/17962241/168176842-710fc101-33a2-46a8-9165-85e40a2a2ac1.jpg)
 
