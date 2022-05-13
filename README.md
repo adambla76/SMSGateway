@@ -1,5 +1,5 @@
 # SMSGateway - bramka SMS dla osób słabowidzących 
-Projekt praktycznej bramka SMS służąca do wyświetlania wiadomości tekstowej na stronie WWW z użyciem Raspberry PI. Litery na stronie WWW są bardzo duże i jaskrawe ze względu na fakt że użytkownikiem tego systemu jest osoba bardzo słabo widząca. Dzięki temu rozwiązaniu osoba taka bez problemu może dokonywać transakcji na swoim koncie w banku ING, co w przypadku próby odczytu SMSa na ekranie telefony nie było możliwe
+Projekt praktycznej bramki SMS służącej do wyświetlania wiadomości tekstowej na stronie WWW z użyciem Raspberry PI. Litery na stronie WWW są bardzo duże i jaskrawe ze względu na fakt że użytkownikiem tego systemu jest osoba bardzo słabo widząca. Dzięki temu rozwiązaniu osoba taka bez problemu może dokonywać transakcji na swoim koncie w banku ING, co w przypadku próby odczytu SMSa z ekranu telefonu nie było możliwe
 
 
   Do odbierania wiadomości SMS użyty został prosty moduł SIM800L widoczny poniżej 
