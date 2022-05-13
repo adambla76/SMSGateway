@@ -13,12 +13,11 @@ Projekt praktycznej bramka SMS służąca do wyświetlania wiadomości tekstowej
 
 ![6sQiFTKXhZptFiGnPlsc](https://user-images.githubusercontent.com/17962241/168176563-74a9d0e2-78fa-49c9-9df6-fb2d433c6efc.png)
 
-Po uruchomieniu kodu SMSGateway.py na adresie localhost i porcie 8888 dostaniemy stronę WWW jak poniżej:
+Istnieje również możliwość skorzystania z adaptera RS232-USB (FTDI lub CH340), który należy podłączyć do jednego z wejść USB, a następnie zdefiniować w proramie port szeregowy jako /dev/ttyUSB. Po uruchomieniu kodu SMSGateway.py na adresie localhost i porcie 8888 zobaczymy stronę WWW jak poniżej:
 
 ![scr1](https://user-images.githubusercontent.com/17962241/168176842-710fc101-33a2-46a8-9165-85e40a2a2ac1.jpg)
 
-Po odebraniu SMS przez moduł GSM na stronie WWW pojawi się pełna treść SMS'a
-
+Po odebraniu wiadomości SMS przez moduł GSM po chwili na stronie WWW pojawi się poniższa zawartość
 ![scr2](https://user-images.githubusercontent.com/17962241/168177478-78d1742b-3e03-415f-8425-260f89e6c052.jpg)
 
 W przypadku kiedy SMS pochodzi z systemu bankowego ING i jest kodem potwierdzającym transakcję, aplikacja parsuje wiadomość SMS, wycina z niej najważniejsze informacje i prezentuje na stronie WWW w taki sposób aby kod autoryzacyjny i kwota były widoczne dla osoby słabowidzącej. Wystarczy kliknąć myszką na kod autoryzacyjny a zostanie on automatycznie skopiowany do schowka. Umożliwi to bardzo proste wklejenie go do systemu transakcyjnego banku ING i realizację przelewu
