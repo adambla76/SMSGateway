@@ -27,11 +27,13 @@ W przypadku kiedy SMS pochodzi z systemu bankowego ING i jest kodem potwierdzaj�
 
 Dodatkowo skrypt SMSGateway potrafi odpowiadać na pewne ustalowe komendy i odsyła wynik SMS'em na numer nadawcy. Dostępne komendy to:
 
-   w treści SMS wpisujemy słowo #reboot i wysyłamy go na numer bramki GSM  - po odebraniu wiadomości skrypy wykona restart RaspberryPI
-   kolejne komendy to:
-   
+     #restart -  restartuje Raspberry PI i odsyła SMS o wykonaniu zadania
      #refresh  -  restartuje serwis flask w przypadku zawieszenia
      #info     -  odsyła zwrotnie tekst "Thanks I'm fine my Lord!"
      #test     -  odsyła SMSem spreparowany tekst wiadomości autoryzacyjnej (dla testów)
      ?         -  wysyła SMSem zestaw wszystkich dostępnych komend
      
+     przykładowo w treści SMS wpisujemy słowo #reboot i wysyłamy go na numer bramki GSM  - po odebraniu wiadomości skrypt wykona restart RaspberryPI.
+   
+   
+    
